@@ -18,7 +18,7 @@ using namespace std;
 #define SIDE_LEFT(n) n*n+3
 /* set to 1 for TRUE */
 int debug = 0;
-int num_iterations = 1000;
+int num_iterations = 2000;
 
 void hexboard::generate_connected_graph()
 {
