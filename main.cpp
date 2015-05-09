@@ -328,6 +328,13 @@ int main(int argc, char **argv)
 	h.generate_connected_graph();
 	cout << "hex! Player is BLUE, computer is RED" << endl;
 	cout << "board size is: " << size << endl;
+	cout << "connections are as follows:" << endl;
+	cout << "  *   *" << endl;
+	cout << "   \\ /" << endl;
+	cout << "* - * - *" << endl;
+	cout << "   / \\" << endl;
+	cout << "  *   *" << endl;
+	cout << "to move, type coordinates of form \"i j\", where i is the vertical axis and j is the horizontal axis" << endl;
 	cout << "who will go first (C/h)? ";
 	char input;
 	cin >> input;
