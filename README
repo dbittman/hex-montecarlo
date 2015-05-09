@@ -1,0 +1,32 @@
+Build: run 'make'
+
+Execute: ./hex
+The program takes in board size as an argument. No arguments results in a 
+board size of 11.
+
+The program will ask you who should go first. It is not case-sensitive. The
+letter 'c' will indicate computer-goes-first, otherwise human player goes
+first.
+
+If the computer goes first, it will make a move, print the board, and ask if
+you want to switch sides (pie rule). The computer will never ask to switch
+sides if you go first.
+
+After that, the game starts for real. Entered moves must be coordinates. It
+will accept "10,4" or "10 4" as valid input formats (without quotes).
+
+It will tell you when the game is over, and who has won.
+
+There are two options that can be set inside the code files. Around line 20
+int main.cpp are:
+
+int debug
+and
+int num_iterations
+
+Both these can be set to alter the behavior of the program. The debug flag will
+print out the win percentage for each potential move, and the num_iterations flag
+will tell it how many games to simulate for each potential move. I didn't make
+these command line options because they don't need to be changed. These can be
+edited to to make the computer run faster on slower hardware, or play better.
+
